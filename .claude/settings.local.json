@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Stop-Process *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Administrador\\\\Downloads\\\\LocadoraCarros\\\\LocadoraCarros\" -Recurse -Force)",
+      "Bash(Select-Object -Property Mode, Name, FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)"
+    ]
+  }
+}
